@@ -1,4 +1,4 @@
-name: Python Docker Build & Push
+name: Python Docker Build
 
 on:
   push:
