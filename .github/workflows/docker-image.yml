@@ -22,8 +22,8 @@ jobs:
       - name: Build and Push Docker Image
         run: |
           docker build -t my-python-app .
-          docker tag my-python-app:latest your-dockerhub-username/my-python-app:latest
-          docker push your-dockerhub-username/my-python-app:latest
+          docker tag my-python-app:latest harish0512/python-sample37:test3
+          docker push harish0512/python-sample37:test3
 
 
 # name: Docker Image CI
